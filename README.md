@@ -2,7 +2,7 @@
 
 The code on this repository builds upon the existing Python driver-functionality of [witrn-ui](https://github.com/didim99/witrn-ui) by [didim99](https://github.com/didim99), by adding real-time plotting (and logging) functionality using [Bokeh](http://bokeh.org/). The result allows the user to control a WITRN USB-meter to be controlled using a web-browser.
 
-Currently the code has only been tested using a WITRN C4. Functionality was tried to be added for the U2P but on first glance its protocol (see [this](https://wiki.cuvoodoo.info/doku.php?id=web-u2) and [this](https://git.cuvoodoo.info/kingkevin/web-u2/src/branch/master/u2_usb.c)) seems to be different.
+Currently the code has only been tested using a [Witrn C4](https://aliexpress.com/item/1005004748597690.html).
 
 <br>
 
@@ -86,4 +86,5 @@ Usage sample:
 
 - Add functionality to re-plot stored CSV-data
 - Add functionality to "download" offline recordings from the USB-meter
-- Implement U2P functionality
+- Implement U2P functionality (see [this](https://wiki.cuvoodoo.info/doku.php?id=web-u2) and [this](https://git.cuvoodoo.info/kingkevin/web-u2/src/branch/master/u2_usb.c))
+- Implement TC66 functionality (see [this](https://github.com/TheHWcave/TC66/blob/main/TC66C.py))
